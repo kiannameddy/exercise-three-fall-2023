@@ -8,9 +8,22 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: bisque;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.HeaderWrapper { 
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+.HeaderContent {
+  display: flex;
+  gap: 20px;
+
 }
