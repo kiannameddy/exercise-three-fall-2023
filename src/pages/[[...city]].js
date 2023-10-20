@@ -27,7 +27,10 @@ export default function Home({weatherData, inter}) {
     return (
         <>
         <Header />
-        <main>
+        <main className="mainContent">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Pixelify+Sans&display=swap');
+            </style>
             <h1>Weather App</h1>
             <WeatherCard 
             cityName = {weatherData.name} 

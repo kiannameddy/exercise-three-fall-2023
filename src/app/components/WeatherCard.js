@@ -13,11 +13,14 @@ const WeatherCard = ({
     windSpeed
 }) => (
     
-    <div className={styles.WeatherCardWrapper}>
+    <div className={styles.WeatherCardWrapper}
+         style= {{color: `rbga(0,0,0,0.${cloudiness})`}}
+    >
+
+        <h2>{cityName}</h2>
         <div className={styles.WeatherCardImage}>
             <WeatherIcon weatherType={weatherType}/>
         </div>
-        <h2>{cityName}</h2>
         <p>Weather Type: {weatherType}</p>
         <p>Current Temperature: {currentTemp}&deg;</p>
         <p>High Temperature: {highTemp}&deg;</p>

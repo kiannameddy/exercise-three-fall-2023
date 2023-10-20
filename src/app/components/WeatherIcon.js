@@ -2,12 +2,13 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faBlot,
+    faBolt,
     faCloud,
     faUmbrella,
     faSnowflake,
     faSun,
 } from "@fortawesome/free-solid-svg-icons";
+import { redirect } from "next/dist/server/api-utils";
 
 const WeatherIcon = ({weatherType}) => {
     switch(weatherType) {
@@ -25,5 +26,5 @@ const WeatherIcon = ({weatherType}) => {
             return <div>this works</div>;
     }
 };
-
 export default WeatherIcon;
+ 

@@ -1,8 +1,24 @@
 .WeatherCardImage svg {
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin: 20px;
 }
 
+.WeatherCardWrapper {
+    text-align: center;
+}
 
+.WeatherCardWrapper svg {
+    text-align: center;
+    color: black;
+}
 
+.WeatherCardWrapper h2 {
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+
+.WeatherCardWrapper p {
+    font-size: 30px;
+}
 
